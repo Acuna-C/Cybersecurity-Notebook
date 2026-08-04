@@ -14,11 +14,8 @@ Objetivos
 El modelo TCP/IP tiene 4 capas:
 
 |Capa TCP/IP	Equivalente OSI Aplicación	|5, 6 y 7|
-
 |Transporte	                              |    4   |
-
 |Internet	                                |    3   |
-
 |Acceso a Red 	                          |  1 y 2 |
 
 1
