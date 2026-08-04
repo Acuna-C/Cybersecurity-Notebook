@@ -58,9 +58,7 @@ Protocolos comunes
 
 Responsable de la comunicación entre aplicaciones.
 
-TCP
-
-Transmission Control Protocol.
+TCP = Transmission Control Protocol.
 
 Características:
 
@@ -74,9 +72,7 @@ Características:
 
 Responsable del direccionamiento y enrutamiento.
 
-IP
-
-Internet Protocol.
+IP = Internet Protocol.
 
 Funciones:
 
