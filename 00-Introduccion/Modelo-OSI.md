@@ -14,3 +14,10 @@ El modelo OSI divide las comunicaciones de red en 7 capas.
 |  2  | Data Link     | Tramas y direcciones MAC           |
 |  1  | Physical      | Transmisión de bits                |
  
+L7 → Aplicaciones
+L6 → Formato
+L5 → Sesiones
+L4 → Puertos
+L3 → IP
+L2 → MAC
+L1 → Cables / señales
