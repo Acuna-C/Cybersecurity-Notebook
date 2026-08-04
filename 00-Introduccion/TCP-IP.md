@@ -12,39 +12,34 @@ Objetivos
 ---Modelo TCP/IP---
 
 El modelo TCP/IP tiene 4 capas:
-____________________________________________________
-|Capa TCP/IP	Equivalente OSI Aplicación	|5, 6 y 7|
-____________________________________________________
-|Transporte	                              |    4   |
-____________________________________________________
-|Internet	                                |    3   |
-____________________________________________________
-|Acceso a Red 	                          |  1 y 2 |
-____________________________________________________
-1
-+------------------+
-2
-| Aplicación |
-3
-+------------------+
-4
-| Transporte |
-5
-+------------------+
-6
-| Internet |
-7
-+------------------+
-8
-| Acceso a Red |
-9
-+------------------+
-Mostrar más líneas
+
+
+| Capa TCP/IP   |           Equivalente OSI          |
+|---------------|------------------------------------|
+| Aplicación    |             5, 6 y 7               |
+| Transporte	  |                 4                  |
+| Internet      |                 3                  |
+| Acceso a Red  |               1 y 2                |
+
+
+
+Diagarama
+
+|                   DIAGRAMA                         |
+|----------------------------------------------------|
+|                   Aplicación                       |
+|                   Transporte	                     |
+|                    Internet                        |
+|                  Acceso a Red                      |
+
+
 Capa de Aplicación
 
 Permite la interacción entre aplicaciones y la red.
 
-Protocolos comunes
+___________________
+Protocolos comunes|
+__________________|
 Protocolo	Puerto	FunciónHTTP	80	Navegación web
 HTTPS	443	Web segura
 FTP	21	Transferencia de archivos
