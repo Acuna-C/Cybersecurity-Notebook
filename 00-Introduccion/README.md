@@ -9,4 +9,3 @@ en redes, sistemas, seguridad ofensiva y defensiva.
 - [Modelo OSI](Modelo-OSI.md)
 - [Modelo TCP/IP](TCP-IP.md)
 - [Conceptos Básicos](Conceptos-Basicos.md)
-- [Glosario](Glosario.md)
