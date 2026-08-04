@@ -1,4 +1,4 @@
 |  Sigla | Ingles                         | Español                            |
 |-------:|--------------------------------|------------------------------------|
 |  TCP   | Transmission Control Protocol  |Protocolo de control de transmisión |
-|  IP    | Internet Protocol              |Protocolo de Internet              |
+|  IP    | Internet Protocol              |Protocolo de Internet               |
