@@ -1,4 +1,4 @@
-¿Qué es TCP/IP?
+#¿Qué es TCP/IP?
 
 TCP/IP (Transmission Control Protocol / Internet Protocol) es el conjunto de protocolos que permite la comunicación entre dispositivos en una red y en Internet.
 
