@@ -23,7 +23,7 @@ El modelo TCP/IP tiene 4 capas:
 
 
 
-Diagarama
+Diagrama
 
 |                   DIAGRAMA                         |
 |----------------------------------------------------|
@@ -37,15 +37,60 @@ Capa de Aplicación
 
 Permite la interacción entre aplicaciones y la red.
 
-___________________
-Protocolos comunes|
-__________________|
-Protocolo	Puerto	FunciónHTTP	80	Navegación web
-HTTPS	443	Web segura
-FTP	21	Transferencia de archivos
-SSH	22	Administración remota segura
-DNS	53	Resolución de nombres
-DHCP	67/68	Asignación IP
-SMTP	25	Correo saliente
-POP3	110	Recepción correo
-IMAP	143	Sincronización correo
+Protocolos comunes
+
+
+|Protocolo	  |Puerto	             |Función                      |
+|-------------|--------------------|-----------------------------|
+|HTTP	        |80	                 |Navegación web               |
+|HTTPS	      |443	               |Web segura                   |
+|FTP	        |21	                 |Transferencia de archivos    |
+|SSH	        |22                  |Administración remota segura |
+|DNS          |53                  |Resolución de nombres        |
+|DHCP         |67/68	             |Asignación IP                |
+|SMTP         |25	                 |Correo saliente              |
+|POP3         |110	               |Recepción correo             |
+|IMAP         |143	               |Sincronización correo        |
+
+
+
+Capa de Transporte
+
+Responsable de la comunicación entre aplicaciones.
+
+TCP
+
+Transmission Control Protocol.
+
+Características:
+
+-Orientado a conexión.
+-Confiable.
+-Control de errores.
+-Control de flujo.
+-Garantiza entrega.
+
+Capa Internet
+
+Responsable del direccionamiento y enrutamiento.
+
+IP
+
+Internet Protocol.
+
+Funciones:
+
+-Identificación de hosts.
+-Direccionamiento.
+-Enrutamiento.
+
+
+Capa de Acceso a Red
+
+Se encarga de la transmisión física.
+
+Tecnologías:
+
+-Ethernet
+-WiFi
+-Fibra óptica
