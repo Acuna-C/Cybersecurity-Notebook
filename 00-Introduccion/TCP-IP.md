@@ -2,23 +2,22 @@
 
 TCP/IP (Transmission Control Protocol / Internet Protocol) es el conjunto de protocolos que permite la comunicación entre dispositivos en una red y en Internet.
 
-Fue desarrollado por el Departamento de Defensa de Estados Unidos (DoD) y es el modelo utilizado actualmente por prácticamente todas las redes modernas.
-
 Objetivos
-Permitir la comunicación entre equipos.
-Definir cómo se transmiten los datos.
-Garantizar el direccionamiento de dispositivos.
-Asegurar el transporte de información.
-Modelo TCP/IP
+-Permitir la comunicación entre equipos.
+-Definir cómo se transmiten los datos.
+-Garantizar el direccionamiento de dispositivos.
+-Asegurar el transporte de información.
+
+
+---Modelo TCP/IP---
 
 El modelo TCP/IP tiene 4 capas:
 
-Capa TCP/IP	Equivalente OSIAplicación	5, 6 y 7
-Transporte	4
-Internet	3
-Acceso a Red	1 y 2
-Diagrama
-Plain Text
+|Capa TCP/IP	Equivalente OSI Aplicación	|5, 6 y 7|
+|Transporte	                              |    4   |
+|Internet	                                |    3   |
+|Acceso a Red 	                          |  1 y 2 |
+
 1
 +------------------+
 2
