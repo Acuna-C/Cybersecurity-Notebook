@@ -3,10 +3,10 @@
 TCP/IP (Transmission Control Protocol / Internet Protocol) es el conjunto de protocolos que permite la comunicación entre dispositivos en una red y en Internet.
 
 Objetivos
--Permitir la comunicación entre equipos.
--Definir cómo se transmiten los datos.
--Garantizar el direccionamiento de dispositivos.
--Asegurar el transporte de información.
+- Permitir la comunicación entre equipos.
+- Definir cómo se transmiten los datos.
+- Garantizar el direccionamiento de dispositivos.
+- Asegurar el transporte de información.
 
 
 # Modelo TCP/IP
@@ -23,7 +23,7 @@ El modelo TCP/IP tiene 4 capas:
 
 
 
-Diagrama
+# Diagrama
 
 |                   DIAGRAMA                         |
 |----------------------------------------------------|
@@ -33,7 +33,7 @@ Diagrama
 |                  Acceso a Red                      |
 
 
-Capa de Aplicación
+# Capa de Aplicación
 
 Permite la interacción entre aplicaciones y la red.
 
@@ -54,7 +54,7 @@ Protocolos comunes
 
 
 
-Capa de Transporte
+# Capa de Transporte
 
 Responsable de la comunicación entre aplicaciones.
 
@@ -64,13 +64,13 @@ Transmission Control Protocol.
 
 Características:
 
--Orientado a conexión.
--Confiable.
--Control de errores.
--Control de flujo.
--Garantiza entrega.
+- Orientado a conexión.
+- Confiable.
+- Control de errores.
+- Control de flujo.
+- Garantiza entrega.
 
-Capa Internet
+# Capa Internet
 
 Responsable del direccionamiento y enrutamiento.
 
@@ -80,17 +80,17 @@ Internet Protocol.
 
 Funciones:
 
--Identificación de hosts.
--Direccionamiento.
--Enrutamiento.
+- Identificación de hosts.
+- Direccionamiento.
+- Enrutamiento.
 
 
-Capa de Acceso a Red
+# Capa de Acceso a Red
 
 Se encarga de la transmisión física.
 
 Tecnologías:
 
--Ethernet
--WiFi
--Fibra óptica
+- Ethernet
+- WiFi
+- Fibra óptica
