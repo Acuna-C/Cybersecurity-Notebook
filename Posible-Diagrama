@@ -1,0 +1,185 @@
+Cybersecurity-Notebook/
+│
+├── README.md
+│
+├── 00-Introduccion/
+│   ├── README.md
+│   ├── CIA-Triad.md
+│   ├── OSI.md
+│   ├── TCP-IP.md
+│   ├── Conceptos-Basicos.md
+│   └── Glosario.md
+│
+├── 01-Redes/
+│   ├── README.md
+│   ├── OSI/
+│   ├── TCP-IP/
+│   ├── IPv4/
+│   ├── Subnetting/
+│   ├── VLAN/
+│   ├── DHCP/
+│   ├── DNS/
+│   ├── WiFi/
+│   ├── Puertos-y-Protocolos.md
+│   └── Wireshark/
+│
+├── 02-Linux/
+│   ├── README.md
+│   ├── Comandos/
+│   ├── Permisos/
+│   ├── Usuarios-y-Grupos/
+│   ├── Procesos/
+│   ├── Servicios/
+│   ├── Red/
+│   ├── Logs/
+│   └── Hardening/
+│
+├── 03-Windows/
+│   ├── README.md
+│   ├── CMD/
+│   ├── Event-Viewer/
+│   ├── Registro/
+│   ├── Sysinternals/
+│   ├── Usuarios-y-Grupos/
+│   └── Hardening/
+│
+├── 04-Active-Directory/
+│   ├── README.md
+│   ├── Conceptos/
+│   ├── Active-Directory/
+│   ├── Kerberos/
+│   ├── LDAP/
+│   ├── DNS/
+│   ├── Enumeracion/
+│   ├── BloodHound/
+│   └── Hardening/
+│
+├── 05-Ciberseguridad/
+│   ├── README.md
+│   ├── CIA/
+│   ├── MITRE-ATTACK/
+│   ├── Cyber-Kill-Chain/
+│   ├── OWASP/
+│   ├── Vulnerabilidades/
+│   ├── Pentesting/
+│   ├── Blue-Team/
+│   └── Incident-Response/
+│
+├── 06-Herramientas/
+│   ├── README.md
+│   ├── Nmap/
+│   ├── Wireshark/
+│   ├── Burp-Suite/
+│   ├── Metasploit/
+│   ├── John/
+│   ├── Hydra/
+│   ├── Gobuster/
+│   ├── Nikto/
+│   └── Netcat/
+│
+├── 07-SIEM/
+│   ├── README.md
+│   ├── Wazuh/
+│   ├── Splunk/
+│   ├── Sigma/
+│   ├── Logs/
+│   └── Detecciones/
+│
+├── 08-EDR/
+│   ├── README.md
+│   ├── Conceptos/
+│   ├── Deteccion/
+│   ├── Respuesta/
+│   └── Threat-Hunting/
+│
+├── 09-Python/
+│   ├── README.md
+│   ├── Fundamentos/
+│   ├── Automatizacion/
+│   ├── Networking/
+│   ├── Sockets/
+│   ├── Logs/
+│   └── Ciberseguridad/
+│
+├── 10-PowerShell/
+│   ├── README.md
+│   ├── Fundamentos/
+│   ├── Comandos/
+│   ├── Automatizacion/
+│   ├── Active-Directory/
+│   └── Seguridad/
+│
+├── 11-Bash/
+│   ├── README.md
+│   ├── Fundamentos/
+│   ├── Comandos/
+│   ├── Scripting/
+│   └── Automatizacion/
+│
+├── 12-TryHackMe/
+│   ├── README.md
+│   ├── Pre-Security/
+│   ├── Cyber-Security-101/
+│   ├── Jr-Penetration-Tester/
+│   ├── SOC-Level-1/
+│   └── Writeups/
+│
+├── 13-HackTheBox/
+│   ├── README.md
+│   ├── Academy/
+│   ├── Machines/
+│   ├── Starting-Point/
+│   └── Writeups/
+│
+├── 14-Laboratorios/
+│   ├── README.md
+│   ├── VirtualBox/
+│   ├── VMware/
+│   ├── Proxmox/
+│   ├── Active-Directory-Lab/
+│   ├── Windows-Lab/
+│   ├── Linux-Lab/
+│   └── Networking-Lab/
+│
+├── 15-Scripts/
+│   ├── README.md
+│   ├── Recon/
+│   ├── Networking/
+│   ├── Logs/
+│   ├── Blue-Team/
+│   └── Utilities/
+│
+├── 16-Writeups/
+│   ├── README.md
+│   ├── CTF/
+│   ├── TryHackMe/
+│   ├── HackTheBox/
+│   └── Laboratorios/
+│
+├── 17-CheatSheets/
+│   ├── README.md
+│   ├── Linux.md
+│   ├── Windows.md
+│   ├── Networking.md
+│   ├── Nmap.md
+│   ├── Wireshark.md
+│   ├── Python.md
+│   ├── PowerShell.md
+│   └── Git-GitHub.md
+│
+├── 18-Recursos/
+│   ├── README.md
+│   ├── Cursos.md
+│   ├── Certificaciones.md
+│   ├── Libros.md
+│   ├── Documentacion.md
+│   └── Comunidades.md
+│
+└── 19-Proyectos/
+    ├── README.md
+    ├── Network-Scanner/
+    ├── Log-Analyzer/
+    ├── Port-Scanner/
+    ├── Password-Audit/
+    ├── SIEM-Lab/
+    └── Active-Directory-Lab/
