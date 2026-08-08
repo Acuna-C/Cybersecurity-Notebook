@@ -3,3 +3,4 @@
 |   TCP   | Transmission Control Protocol            |Protocolo de control de transmisión                        |
 |    IP   | Internet Protocol                        |Protocolo de Internet                                      |
 | CIA/CID |Confidentiality, Integrity y Availability |Confidencialidad, Integridad y Disponibilidad              |
+|  CIDR   |Classless Inter-Domain Routing            |Enrutamiento entre dominios sin clases                     |
