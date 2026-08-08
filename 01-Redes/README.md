@@ -14,7 +14,7 @@ Este módulo es el núcleo teórico y práctico sobre cómo viaja la informació
 | [IPv4/](IPv4.md/) | Estructura de cabeceras IP, clases de IP, direcciones privadas/públicas y NAT. |
 | [Subnetting/](Subnetting.md/) | Notación CIDR, cálculo rápido de subredes y máscaras. |
 | [VLAN/](VLAN.md/) | Segmentación Capa 2, Etiquetado 802.1Q, Trunking y VLAN Hopping. |
-| [DHCP/](DHCP/) | Proceso DORA, leasing, DHCP Starvation y Rogue DHCP. |
+| [DHCP/](DHCP.md/) | Proceso DORA, leasing, DHCP Starvation y Rogue DHCP. |
 | [DNS/](DNS/) | Tipos de registros (A, AAAA, MX, TXT), resolución de nombres y DNS Zone Transfer. |
 | [WiFi/](WiFi/) | Estándares 802.11, cifrados (WEP, WPA2, WPA3), Handshake 4-Way y desautenticación. |
 | [Puertos-y-Protocolos.md](Puertos-y-Protocolos.md) | Tabla completa de puertos críticos, servicios por defecto y riesgos asociados. |
