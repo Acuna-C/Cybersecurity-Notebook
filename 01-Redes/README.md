@@ -10,7 +10,7 @@ Este módulo es el núcleo teórico y práctico sobre cómo viaja la informació
 | Carpeta / Archivo | Contenido Clave |
 | :--- | :--- |
 | [OSI/](OSI.md/) | Las 7 capas del Modelo OSI, encapsulamiento y ataques por capa. |
-| [TCP-IP/](TCP-IP/) | Modelo TCP/IP, Handshake de 3 vías, banderas TCP y comparación con UDP. |
+| [TCP-IP/](TCP-IP.md/) | Modelo TCP/IP, Handshake de 3 vías, banderas TCP y comparación con UDP. |
 | [IPv4/](IPv4/) | Estructura de cabeceras IP, clases de IP, direcciones privadas/públicas y NAT. |
 | [Subnetting/](Subnetting/) | Notación CIDR, cálculo rápido de subredes y máscaras. |
 | [VLAN/](VLAN/) | Segmentación Capa 2, Etiquetado 802.1Q, Trunking y VLAN Hopping. |
