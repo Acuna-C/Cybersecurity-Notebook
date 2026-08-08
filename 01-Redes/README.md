@@ -1,3 +1,6 @@
+# 01. Redes
+
+
 Este módulo es el núcleo teórico y práctico sobre cómo viaja la información en una red, cómo se direcciona y cómo inspeccionarla durante un análisis de seguridad o auditoría.
 
 ---
