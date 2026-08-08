@@ -4,3 +4,7 @@
 |IP       | Internet Protocol                        |Protocolo de Internet                                      |
 |CIA/CID  |Confidentiality, Integrity y Availability |Confidencialidad, Integridad y Disponibilidad              |
 |CIDR     |Classless Inter-Domain Routing            |Enrutamiento entre dominios sin clases                     |
+|DHCP     |Dynamic Host Configuration Protocol       |Protocolo de Configuración Dinámica de Host                |
+
+
+Protocolo de Configuración Dinámica de Host
