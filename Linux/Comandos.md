@@ -78,7 +78,7 @@
 
 
 
-4. Valores Octales (Notación Numérica)
+## 6. Valores Octales (Notación Numérica)
 En lugar de letras, se pueden sumar valores numéricos para combinar permisos:
 
 4: Lectura (r)
