@@ -6,7 +6,11 @@
 | Comando | Uso |
 | :---: | :---: |
 | pwd | Muestra la ruta del directorio actual |
-| ls -la | Lista todos los archivos y carpetas (incluidos ocultos) con permisos y detalles |
+| ls | Lista archivos y directorios del directorio actua |
+| ls -a | Incluye archivos y directorios ocultos |
+| ls -l | Muestra información detallada |
+| ls -la | Combina -l y -a. |
+| ls -lah | Igual que ls -la, pero muestra tamaños en formato legible |
 | cd | Cambia al directorio especificado (cd .. sube un nivel). |
 | mkdir <nombre> | Crea una nueva carpeta |
 | cp <origen> <destino>|Copia un archivo o directorio (cp -r para carpetas)|
@@ -34,7 +38,11 @@
 | :---: | :---: |
 | ip a / ip addr | Muestra las interfaces de red y sus direcciones IP |
 | ping -c 4 <ip_o_dominio> | Envía paquetes para verificar conectividad con un host |
-| ss -tuln / netstat -tuln | Lista los puertos abiertos y servicios a la escucha |
+| ss -tuln | Muestra sockets TCP/UDP que están escuchando, junto con sus puertos y direcciones
+-t → TCP
+-u → UDP
+-l → listening
+-n → no resolver nombres|
 | curl -I <url>|Obtiene las cabeceras HTTP de un sitio web|
 
 ---
@@ -73,7 +81,19 @@
 | chmod | s | (setuid / setgid): Ejecuta el archivo con los privilegios del dueño o grupo |
 | chmod | t | (sticky bit): Evita que usuarios borren archivos de otros en carpetas compartidas |
 
+chmod 755 archivo
 
+        owner group others
+          ↓     ↓     ↓
+        ┌───┐ ┌───┐ ┌───┐
+        │ 7 │ │ 5 │ │ 5 │
+        └───┘ └───┘ └───┘
+          ↓     ↓     ↓
+        rwx   r-x   r-x
+
+7 = 4 + 2 + 1 = rwx
+5 = 4 + 0 + 1 = r-x
+5 = 4 + 0 + 1 = r-x
 
 ## 6. Valores Octales (Notación Numérica)
 
