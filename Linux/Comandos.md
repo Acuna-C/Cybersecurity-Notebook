@@ -57,21 +57,25 @@
 
 ## 5. Permisos chmod
 
-| chmod | signo | Letra | uso |
-| :---: | + | :---: | Añade los permisos especificados |
-| chmod | - | :---: | Remueve los permisos especificados |
-| chmod | = | :---: | Establece exactamente los permisos dados (sobrescribe los anteriores) |
-| chmod | :---: | u | (user): El usuario propietario del archivo |
-| chmod | :---: | g | (group): El grupo de usuarios al que pertenece el archivo |
-| chmod | :---: | o | (others): Cualquier otro usuario del sistema |
-| chmod | :---: | a | (all): Todos los anteriores (u + g + o). |
-| chmod | :---: | r | (read): Leer/ver el contenido |
-| chmod | :---: | w | (write): Modificar/escribir |
-| chmod | :---: | x | (execute): Ejecutar como programa o entrar a un directorio |
-| chmod | :---: | s | (setuid / setgid): Ejecuta el archivo con los privilegios del dueño o grupo |
-| chmod | :---: | t | (sticky bit): Evita que usuarios borren archivos de otros en carpetas compartidas |
-| chmod | :---: | o | :---: |
-| chmod | :---: | o | :---: |
+| chmod | signo | uso |
+| :---: | :---: | :---: |
+| chmod | + | Añade los permisos especificados |
+| chmod | - | Remueve los permisos especificados |
+| chmod | = | Establece exactamente los permisos dados (sobrescribe los anteriores) |
+
+---
+| chmod  | Letra | uso |
+| :---: | :---: | :---: |
+| chmod | u | (user): El usuario propietario del archivo |
+| chmod | g | (group): El grupo de usuarios al que pertenece el archivo |
+| chmod | o | (others): Cualquier otro usuario del sistema |
+| chmod | a | (all): Todos los anteriores (u + g + o). |
+| chmod | r | (read): Leer/ver el contenido |
+| chmod | w | (write): Modificar/escribir |
+| chmod | x | (execute): Ejecutar como programa o entrar a un directorio |
+| chmod | s | (setuid / setgid): Ejecuta el archivo con los privilegios del dueño o grupo |
+| chmod | t | (sticky bit): Evita que usuarios borren archivos de otros en carpetas compartidas |
+
 
 
 4. Valores Octales (Notación Numérica)
