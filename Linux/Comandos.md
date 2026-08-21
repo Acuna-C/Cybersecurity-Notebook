@@ -79,38 +79,32 @@
 
 
 ## 6. Valores Octales (Notación Numérica)
+
 En lugar de letras, se pueden sumar valores numéricos para combinar permisos:
 
-4: Lectura (r)
 
-2: Escritura (w)
-
-1: Ejecución (x)
-
-0: Sin permisos (-)
+| :---: | :---: |
+|4| Lectura (r)|
+|2| Escritura (w)|
+|1| Ejecución (x)|
+|0| Sin permisos (-)|
 
 Ejemplo: 4 + 2 + 1 = 7 (Permisos totales: rwx).
 
 Comando: chmod 755 archivo (Propietario: 7 rwx, Grupo: 5 r-x, Otros: 5 r-x).
 
-Ejemplos claros de cómo usar u, g, o y a:
 
-chmod u+x script.sh
 
-Significado: Le da permiso de ejecución (+x) únicamente al propietario (u) del archivo. El grupo y los demás usuarios no podrán ejecutarlo.
 
-chmod g+w documento.txt
+---
 
-Significado: Le da permiso de escritura (+w) al grupo (g) asignado al archivo. Útil para trabajar en equipo sobre un mismo documento.
 
-chmod o-r secreto.txt
+## Ejemplos claros de cómo usar u, g, o y a:
 
-Significado: Le quita el permiso de lectura (-r) a los demás usuarios (o). Solo el dueño y los miembros del grupo podrán leerlo.
 
-chmod a+r leeme.txt
-
-Significado: Le da permiso de lectura (+r) a todos los usuarios (a: usuario, grupo y otros).
-
-chmod u+rw,g+r,o-rwx reporte.pdf (Combinado)
-
-Significado: Otorga lectura y escritura al dueño (u+rw), solo lectura al grupo (g+r), y quita todos los permisos a los demás (o-rwx).
+| :---: | :---: |
+|chmod u+x script.sh| Significado: Le da permiso de ejecución (+x) únicamente al propietario (u) del archivo. El grupo y los demás usuarios no podrán ejecutarlo|
+|chmod g+w documento.txt| Significado: Le da permiso de escritura (+w) al grupo (g) asignado al archivo. Útil para trabajar en equipo sobre un mismo documento|
+|chmod o-r secreto.txt| Significado: Le quita el permiso de lectura (-r) a los demás usuarios (o). Solo el dueño y los miembros del grupo podrán leerlo|
+|chmod a+r leeme.txt|Significado: Le da permiso de lectura (+r) a todos los usuarios (a: usuario, grupo y otros)|
+|chmod u+rw,g+r,o-rwx reporte.pdf (Combinado)|Significado: Otorga lectura y escritura al dueño (u+rw), solo lectura al grupo (g+r), y quita todos los permisos a los demás (o-rwx)|
