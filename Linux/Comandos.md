@@ -35,8 +35,7 @@
 | ip a / ip addr | Muestra las interfaces de red y sus direcciones IP |
 | ping -c 4 <ip_o_dominio> | Envía paquetes para verificar conectividad con un host |
 | ss -tuln / netstat -tuln | Lista los puertos abiertos y servicios a la escucha |
-| grep "<texto>" <archivo> | Busca una palabra o patrón dentro de un archivo |
-|curl -I <url>|Obtiene las cabeceras HTTP de un sitio web|
+| curl -I <url>|Obtiene las cabeceras HTTP de un sitio web|
 
 ---
 
@@ -49,9 +48,7 @@
 | sudo <comando> |Ejecuta un comando con privilegios de superusuario (root) |
 | htop / top |Muestra los procesos en tiempo real y el uso de CPU/RAM |
 | ps aux | Lista todos los procesos activos en el sistema |
-| cp <origen> <destino>|Copia un archivo o directorio (cp -r para carpetas)|
-| mv <origen> <destino>|Mueve o renombra un archivo o directorio|
-| rm <archivo>|Elimina un archivo (rm -rf <carpeta> elimina una carpeta y su contenido)|
+
 
 ---
 
