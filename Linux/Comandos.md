@@ -38,11 +38,7 @@
 | :---: | :---: |
 | ip a / ip addr | Muestra las interfaces de red y sus direcciones IP |
 | ping -c 4 <ip_o_dominio> | Envía paquetes para verificar conectividad con un host |
-| ss -tuln | Muestra sockets TCP/UDP que están escuchando, junto con sus puertos y direcciones
--t → TCP
--u → UDP
--l → listening
--n → no resolver nombres|
+| ss -tuln | Muestra sockets TCP/UDP que están escuchando, junto con sus puertos y direcciones -t → TCP -u → UDP -l → listening -n → no resolver nombres|
 | curl -I <url>|Obtiene las cabeceras HTTP de un sitio web|
 
 ---
