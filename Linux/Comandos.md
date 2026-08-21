@@ -88,7 +88,9 @@ chmod 755 archivo
         rwx   r-x   r-x
 
 |7 = 4 + 2 + 1 = rwx|
+
 |5 = 4 + 0 + 1 = r-x|
+
 |5 = 4 + 0 + 1 = r-x|
 
 ## 6. Valores Octales (Notación Numérica)
