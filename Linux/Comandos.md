@@ -82,7 +82,7 @@
 
 En lugar de letras, se pueden sumar valores numéricos para combinar permisos:
 
-
+| Numero | Accion |
 | :---: | :---: |
 |4| Lectura (r)|
 |2| Escritura (w)|
@@ -102,6 +102,7 @@ Comando: chmod 755 archivo (Propietario: 7 rwx, Grupo: 5 r-x, Otros: 5 r-x).
 ## Ejemplos claros de cómo usar u, g, o y a:
 
 
+| Ejmplo | Accion |
 | :---: | :---: |
 |chmod u+x script.sh| Significado: Le da permiso de ejecución (+x) únicamente al propietario (u) del archivo. El grupo y los demás usuarios no podrán ejecutarlo|
 |chmod g+w documento.txt| Significado: Le da permiso de escritura (+w) al grupo (g) asignado al archivo. Útil para trabajar en equipo sobre un mismo documento|
