@@ -24,7 +24,8 @@ Descubrimiento de puertos y verificación específica de MS17-010 mediante Nmap:
   
 ------------------------------------------------------------------
 
-    Buscar el módulo de EternalBlue:
+  Buscar el módulo de EternalBlue:
+------------------------------------------------------------------
       search ms17-010
 
 ------------------------------------------------------------------
