@@ -9,7 +9,7 @@ Guía paso a paso para la auditoría y explotación de la vulnerabilidad MS17-01
 Obtener la dirección IP del objetivo:
 ipconfig
 
-Fase 2: Escaneo y Detección de Vulnerabilidades (En Kali Linux)
+##Fase 2: Escaneo y Detección de Vulnerabilidades (En Kali Linux)
 Descubrimiento de puertos y verificación específica de MS17-010 mediante Nmap:
 
 # Escaneo de puertos y servicios en el objetivo
@@ -18,7 +18,7 @@ Descubrimiento de puertos y verificación específica de MS17-010 mediante Nmap:
 # Verificación específica de la vulnerabilidad EternalBlue (SMB v1)
   nmap -p 445 --script smb-vuln-ms17-010 <IP_WINDOWS_7> -vvv
   
-Fase 3: Explotación con Metasploit (En Kali Linux)
+##Fase 3: Explotación con Metasploit (En Kali Linux)
   Iniciar la consola de Metasploit:
   msfconsole
 
