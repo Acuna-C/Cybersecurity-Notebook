@@ -1,9 +1,9 @@
-# 🗄️ Guía de SQL
+#  Guía de SQL
 
 Guía de referencia rápida y práctica de **SQL** 
 ---
 
-## 📌 1. Básico: Creación, Consultas y Manipulación de Datos
+##  1. Básico: Creación, Consultas y Manipulación de Datos
 
 ### 🛠️ Crear una Tabla
 ```sql
@@ -18,7 +18,7 @@ CREATE TABLE usuarios (
 
 ---------------
 ### 🛠️ Insertar un registro
-```
+```sql
 -- Insertar un solo registro
 INSERT INTO usuarios (nombre, email, edad) 
 VALUES ('Carlos', 'carlos@example.com', 25);
@@ -31,9 +31,8 @@ VALUES
 ```
 ---------------
 ### 🛠️ Insertar un registro
-```
+```sql
 
----------------
 -- Seleccionar todos los campos de todos los registros
 SELECT * FROM usuarios;
 
