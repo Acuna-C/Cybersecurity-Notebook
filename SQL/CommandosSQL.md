@@ -30,7 +30,7 @@ VALUES
     ('Beatriz', 'beatriz@example.com', 22);
 ```
 ---------------
-### 🛠️ Insertar un registro
+### 🛠️ Seleccion de campos
 ```sql
 
 -- Seleccionar todos los campos de todos los registros
