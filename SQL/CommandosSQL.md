@@ -14,9 +14,11 @@ CREATE TABLE usuarios (
     edad INT,
     fecha_registro DATE DEFAULT CURRENT_DATE
 );
+```
 
----
-
+---------------
+### 🛠️ Insertar un registro
+```
 -- Insertar un solo registro
 INSERT INTO usuarios (nombre, email, edad) 
 VALUES ('Carlos', 'carlos@example.com', 25);
@@ -26,3 +28,22 @@ INSERT INTO usuarios (nombre, email, edad)
 VALUES 
     ('Ana', 'ana@example.com', 30),
     ('Beatriz', 'beatriz@example.com', 22);
+```
+---------------
+### 🛠️ Insertar un registro
+```
+
+---------------
+-- Seleccionar todos los campos de todos los registros
+SELECT * FROM usuarios;
+
+-- Seleccionar columnas específicas
+SELECT nombre, email FROM usuarios;
+
+-- Filtrar por condiciones
+SELECT * FROM usuarios WHERE edad >= 25;
+
+-- Filtrar con operadores lógicos y ordenamiento
+SELECT * FROM usuarios 
+WHERE edad > 18 AND email LIKE '%@example.com'
+ORDER BY edad DESC;
