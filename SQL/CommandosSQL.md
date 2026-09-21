@@ -14,3 +14,15 @@ CREATE TABLE usuarios (
     edad INT,
     fecha_registro DATE DEFAULT CURRENT_DATE
 );
+
+---
+
+-- Insertar un solo registro
+INSERT INTO usuarios (nombre, email, edad) 
+VALUES ('Carlos', 'carlos@example.com', 25);
+
+-- Insertar múltiples registros a la vez
+INSERT INTO usuarios (nombre, email, edad) 
+VALUES 
+    ('Ana', 'ana@example.com', 30),
+    ('Beatriz', 'beatriz@example.com', 22);
