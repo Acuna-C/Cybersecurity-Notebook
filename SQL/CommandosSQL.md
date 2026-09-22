@@ -69,6 +69,7 @@ DELETE FROM usuarios WHERE edad < 18;
 ```
 
 ### 🛠️ Cruce de Información (JOINs)
+Suponiendo dos tablas relacionadas: clientes y pedidos (conectadas por clientes.id = pedidos.cliente_id).
 ```sql
 
 -- INNER JOIN: Devuelve solo los registros que coinciden en ambas tablas
